@@ -1,0 +1,18 @@
+[
+  {
+    "User_Id": 1,
+    "Name": "أحمد محمد",
+    "Email": "ahmed.mohamed@email.com",
+    "UserPassword": "password123",
+    "UserType": "Student",
+    "Recommendations": [
+      {
+        "Rec_Id": 1,
+        "Score": 4.5,
+        "Section": "الهندسة",
+        "Uni_Id": 1,
+        "Col_Id": 1
+      }
+    ]
+  }
+]

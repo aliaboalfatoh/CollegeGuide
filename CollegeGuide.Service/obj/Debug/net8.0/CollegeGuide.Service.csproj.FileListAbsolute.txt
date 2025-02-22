@@ -1,0 +1,11 @@
+D:\CollegeGuide\CollegeGuide.Service\bin\Debug\net8.0\CollegeGuide.Service.deps.json
+D:\CollegeGuide\CollegeGuide.Service\bin\Debug\net8.0\CollegeGuide.Service.dll
+D:\CollegeGuide\CollegeGuide.Service\bin\Debug\net8.0\CollegeGuide.Service.pdb
+D:\CollegeGuide\CollegeGuide.Service\obj\Debug\net8.0\CollegeGuide.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\CollegeGuide\CollegeGuide.Service\obj\Debug\net8.0\CollegeGuide.Service.AssemblyInfoInputs.cache
+D:\CollegeGuide\CollegeGuide.Service\obj\Debug\net8.0\CollegeGuide.Service.AssemblyInfo.cs
+D:\CollegeGuide\CollegeGuide.Service\obj\Debug\net8.0\CollegeGuide.Service.csproj.CoreCompileInputs.cache
+D:\CollegeGuide\CollegeGuide.Service\obj\Debug\net8.0\CollegeGuide.Service.dll
+D:\CollegeGuide\CollegeGuide.Service\obj\Debug\net8.0\refint\CollegeGuide.Service.dll
+D:\CollegeGuide\CollegeGuide.Service\obj\Debug\net8.0\CollegeGuide.Service.pdb
+D:\CollegeGuide\CollegeGuide.Service\obj\Debug\net8.0\ref\CollegeGuide.Service.dll

@@ -1,0 +1,15 @@
+D:\CollegeGuide\CollegeGuide.Repositary\bin\Debug\net8.0\CollegeGuide.Repositary.deps.json
+D:\CollegeGuide\CollegeGuide.Repositary\bin\Debug\net8.0\CollegeGuide.Repositary.dll
+D:\CollegeGuide\CollegeGuide.Repositary\bin\Debug\net8.0\CollegeGuide.Repositary.pdb
+D:\CollegeGuide\CollegeGuide.Repositary\bin\Debug\net8.0\CollegeGuide.Core.dll
+D:\CollegeGuide\CollegeGuide.Repositary\bin\Debug\net8.0\CollegeGuide.Core.pdb
+D:\CollegeGuide\CollegeGuide.Repositary\obj\Debug\net8.0\CollegeGuide.Repositary.csproj.AssemblyReference.cache
+D:\CollegeGuide\CollegeGuide.Repositary\obj\Debug\net8.0\CollegeGuide.Repositary.GeneratedMSBuildEditorConfig.editorconfig
+D:\CollegeGuide\CollegeGuide.Repositary\obj\Debug\net8.0\CollegeGuide.Repositary.AssemblyInfoInputs.cache
+D:\CollegeGuide\CollegeGuide.Repositary\obj\Debug\net8.0\CollegeGuide.Repositary.AssemblyInfo.cs
+D:\CollegeGuide\CollegeGuide.Repositary\obj\Debug\net8.0\CollegeGuide.Repositary.csproj.CoreCompileInputs.cache
+D:\CollegeGuide\CollegeGuide.Repositary\obj\Debug\net8.0\CollegeG.D63242F3.Up2Date
+D:\CollegeGuide\CollegeGuide.Repositary\obj\Debug\net8.0\CollegeGuide.Repositary.dll
+D:\CollegeGuide\CollegeGuide.Repositary\obj\Debug\net8.0\refint\CollegeGuide.Repositary.dll
+D:\CollegeGuide\CollegeGuide.Repositary\obj\Debug\net8.0\CollegeGuide.Repositary.pdb
+D:\CollegeGuide\CollegeGuide.Repositary\obj\Debug\net8.0\ref\CollegeGuide.Repositary.dll

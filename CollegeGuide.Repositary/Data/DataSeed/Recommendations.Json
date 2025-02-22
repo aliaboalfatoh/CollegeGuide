@@ -1,0 +1,124 @@
+{
+  "Universities": [
+    {
+      "Uni_Id": 1,
+      "UniName": "Cairo University",
+      "UniDescription": "A prestigious public university in Egypt.",
+      "UniLocation": "Giza, Egypt",
+      "UniWebsite": "https://cu.edu.eg",
+      "UniEmail": "info@cu.edu.eg",
+      "UniPhone": "+20 2 3567 1234",
+      "UniLogo": "cu_logo.png",
+      "Colleges": [
+        {
+          "Col_Id": 1,
+          "ColName": "Faculty of Engineering",
+          "ColDescription": "Engineering college with various departments.",
+          "ColWebsite": "https://eng.cu.edu.eg",
+          "ColLogo": "eng_logo.png",
+          "FeesEgy": 15000,
+          "FeesInternational": 30000,
+          "AppFeesEgy": 500,
+          "AppFeesInternational": 1000,
+          "FirstInstallment": 7500,
+          "SecInstallment": 7500,
+          "DurationOfStudy": "5 years",
+          "PaymentMethod": "Bank Transfer",
+          "Deadline": "2025-08-31T00:00:00"
+        },
+        {
+          "Col_Id": 2,
+          "ColName": "Faculty of Medicine",
+          "ColDescription": "Medical college providing top education.",
+          "ColWebsite": "https://med.cu.edu.eg",
+          "ColLogo": "med_logo.png",
+          "FeesEgy": 20000,
+          "FeesInternational": 40000,
+          "AppFeesEgy": 600,
+          "AppFeesInternational": 1200,
+          "FirstInstallment": 10000,
+          "SecInstallment": 10000,
+          "DurationOfStudy": "6 years",
+          "PaymentMethod": "Online Payment",
+          "Deadline": "2025-09-15T00:00:00"
+        }
+      ],
+      "FinancialAids": [
+        {
+          "Aid_Id": 1,
+          "Aid_Type": "Scholarship",
+          "AidDescription": "Full scholarship for top students."
+        }
+      ]
+    },
+    {
+      "Uni_Id": 2,
+      "UniName": "Alexandria University",
+      "UniDescription": "A well-known university in Alexandria, Egypt.",
+      "UniLocation": "Alexandria, Egypt",
+      "UniWebsite": "https://alexu.edu.eg",
+      "UniEmail": "info@alexu.edu.eg",
+      "UniPhone": "+20 3 487 1234",
+      "UniLogo": "alexu_logo.png",
+      "Colleges": [
+        {
+          "Col_Id": 3,
+          "ColName": "Faculty of Business",
+          "ColDescription": "Business and economics college.",
+          "ColWebsite": "https://bus.alexu.edu.eg",
+          "ColLogo": "bus_logo.png",
+          "FeesEgy": 12000,
+          "FeesInternational": 25000,
+          "AppFeesEgy": 400,
+          "AppFeesInternational": 900,
+          "FirstInstallment": 6000,
+          "SecInstallment": 6000,
+          "DurationOfStudy": "4 years",
+          "PaymentMethod": "Direct Payment",
+          "Deadline": "2025-08-20T00:00:00"
+        }
+      ],
+      "FinancialAids": [
+        {
+          "Aid_Id": 2,
+          "Aid_Type": "Need-Based Aid",
+          "AidDescription": "Financial aid for low-income students."
+        }
+      ]
+    }
+  ],
+  "Users": [
+    {
+      "User_Id": 1,
+      "Name": "Ahmed Ali",
+      "Email": "ahmed.ali@example.com",
+      "UserPassword": "hashed_password",
+      "UserType": "Student",
+      "Recommendations": [
+        {
+          "Rec_Id": 1,
+          "Score": 4.5,
+          "Section": "Engineering",
+          "Col_Id": 1,
+          "Uni_Id": 1
+        }
+      ]
+    },
+    {
+      "User_Id": 2,
+      "Name": "Sarah Hassan",
+      "Email": "sarah.hassan@example.com",
+      "UserPassword": "hashed_password",
+      "UserType": "Student",
+      "Recommendations": [
+        {
+          "Rec_Id": 2,
+          "Score": 4.7,
+          "Section": "Business",
+          "Col_Id": 3,
+          "Uni_Id": 2
+        }
+      ]
+    }
+  ]
+}

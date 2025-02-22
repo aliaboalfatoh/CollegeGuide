@@ -1,0 +1,20 @@
+[
+  {
+    "UniName": "Cairo University",
+    "UniDescription": "A prestigious public university in Egypt.",
+    "UniLocation": "Giza, Egypt",
+    "UniWebsite": "https://cu.edu.eg",
+    "UniEmail": "info@cu.edu.eg",
+    "UniPhone": "+20 2 3567 1234",
+    "UniLogo": "cu_logo.png"
+  },
+  {
+    "UniName": "Alexandria University",
+    "UniDescription": "A well-known university in Alexandria, Egypt.",
+    "UniLocation": "Alexandria, Egypt",
+    "UniWebsite": "https://alexu.edu.eg",
+    "UniEmail": "info@alexu.edu.eg",
+    "UniPhone": "+20 3 487 1234",
+    "UniLogo": "alexu_logo.png"
+  }
+]
