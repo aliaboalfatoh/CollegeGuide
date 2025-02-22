@@ -1,0 +1,398 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "CollegeGuide",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Universities": {
+      "get": {
+        "tags": [
+          "Universities"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/University"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/University"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/University"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Universities/{id}": {
+      "get": {
+        "tags": [
+          "Universities"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/University"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/University"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/University"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/WeatherForecast": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "operationId": "GetWeatherForecast",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "College": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "col_Id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "colName": {
+            "type": "string",
+            "nullable": true
+          },
+          "colDescription": {
+            "type": "string",
+            "nullable": true
+          },
+          "colWebsite": {
+            "type": "string",
+            "nullable": true
+          },
+          "colLogo": {
+            "type": "string",
+            "nullable": true
+          },
+          "feesEgy": {
+            "type": "number",
+            "format": "float"
+          },
+          "feesInternational": {
+            "type": "number",
+            "format": "float"
+          },
+          "appFeesEgy": {
+            "type": "number",
+            "format": "float"
+          },
+          "appFeesInternational": {
+            "type": "number",
+            "format": "float"
+          },
+          "firstInstallment": {
+            "type": "number",
+            "format": "float"
+          },
+          "secInstallment": {
+            "type": "number",
+            "format": "float"
+          },
+          "durationOfStudy": {
+            "type": "string",
+            "nullable": true
+          },
+          "paymentMethod": {
+            "type": "string",
+            "nullable": true
+          },
+          "deadline": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "uni_Id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "university": {
+            "$ref": "#/components/schemas/University"
+          },
+          "recommendations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Recommendation"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "FinancialAid": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "aid_Id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "aid_Type": {
+            "type": "string",
+            "nullable": true
+          },
+          "aidDescription": {
+            "type": "string",
+            "nullable": true
+          },
+          "uni_Id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "university": {
+            "$ref": "#/components/schemas/University"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Recommendation": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "rec_Id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "score": {
+            "type": "number",
+            "format": "float"
+          },
+          "section": {
+            "type": "string",
+            "nullable": true
+          },
+          "user_Id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "user": {
+            "$ref": "#/components/schemas/User"
+          },
+          "col_Id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "uni_Id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "college": {
+            "$ref": "#/components/schemas/College"
+          }
+        },
+        "additionalProperties": false
+      },
+      "University": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "uni_Id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "uniName": {
+            "type": "string",
+            "nullable": true
+          },
+          "uniDescription": {
+            "type": "string",
+            "nullable": true
+          },
+          "uniLocation": {
+            "type": "string",
+            "nullable": true
+          },
+          "uniWebsite": {
+            "type": "string",
+            "nullable": true
+          },
+          "uniEmail": {
+            "type": "string",
+            "nullable": true
+          },
+          "uniPhone": {
+            "type": "string",
+            "nullable": true
+          },
+          "uniLogo": {
+            "type": "string",
+            "nullable": true
+          },
+          "recommendations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Recommendation"
+            },
+            "nullable": true
+          },
+          "colleges": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/College"
+            },
+            "nullable": true
+          },
+          "financialAids": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/FinancialAid"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "User": {
+        "type": "object",
+        "properties": {
+          "user_Id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "userPassword": {
+            "type": "string",
+            "nullable": true
+          },
+          "userType": {
+            "type": "string",
+            "nullable": true
+          },
+          "recommendations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Recommendation"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "WeatherForecast": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "temperatureC": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "temperatureF": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "summary": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
